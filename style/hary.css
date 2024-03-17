@@ -9,6 +9,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
     font-size: 45px;
@@ -41,7 +42,98 @@ nav a{
     border: 0;
     font-weight: 700;
     color: #fff;
-    font-size: 29px;
+    font-size: 25px;
     text-transform: capitalize;
-    padding: 15px 35px;
+    padding: 10px 25px;
+}
+/* header style */
+.header{
+    background:#FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+.banner{
+    padding:30px 30px 0 150px;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner .profile-pic{
+    width: 500px;
+    height: 600px;
+ 
+}
+
+.banner-gretting{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin: 0;
+
+}
+.banner-title{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+
+.banner-des{
+    margin-top: 5px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    padding: 130px;
+    margin: 0 130px;
+
+}
+.section-title{
+    font-size: 30px;
+    font-weight:700;
+    color:#181818;
+    text-align: center;
+}
+.section-des{
+    font-size: 18px;
+    text-align: center;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+text-align:center;
+}
+.info-title{
+    color: #757575
+}
+.info-des{
+    color: #474747;
+    font-weight: bold;
+}
+.experience > .section-des{
+padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    gap: 25px;
+    
+
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background:#FFF ;
+    box-shadow:0px 6px 10px 0px  rgba(0, 0, 0, 0.2);
+    border: 0px;
 }
