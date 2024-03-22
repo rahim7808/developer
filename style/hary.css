@@ -91,6 +91,10 @@ nav a{
 main{
     max-width: 1140px;
     margin: 0 auto;
+
+}
+main section{
+    margin-top: 130px;
 }
 .about{
     padding: 130px;
@@ -124,6 +128,9 @@ text-align:center;
 .experience > .section-des{
 padding: 30px 150px;
 }
+.experience{
+    margin-top: auto;
+}
 .skills-container{
     display: flex;
     gap: 25px;
@@ -136,4 +143,16 @@ padding: 30px 150px;
     background:#FFF ;
     box-shadow:0px 6px 10px 0px  rgba(0, 0, 0, 0.2);
     border: 0px;
+}
+/* resume section */
+
+.resume-container{
+    display:flex;
+}
+.resume-title{
+    color: #474747;
+    font-size: 30px;
+  
+    font-weight: 700;
+    
 }
